@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;400&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/circle-scatter-haikei.png);
+}
+
+.bg_image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_image img {
+    width: 80%;
+}
+
+#panel{
+    position: absolute;
+    top: 6rem;
+    left: 19.5rem;
+    width: 59%;
+    height: 77%;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#ptop {
+    width: 100%;
+    height: 10%;
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.box {
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 0;
+}
+
+h1{
+    padding-top: 10rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ff0048;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 3rem;
+    height: 2.8rem;
+}
+
+.bubble:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bubble img {
+    width: 3rem;
+}
+
+.bubble h5 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #000000;
+}

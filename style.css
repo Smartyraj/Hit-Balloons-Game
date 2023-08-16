@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;400&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/circle-scatter-haikei.png);
+}
+
+.bg_image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.bg_image img {
+    width: 80%;
+}
+
+.screen-img {
+    position: absolute;
+    top: 6rem;
+    left: 19.4rem;
+}
+
+.screen-img img {
+    width: 88.5%;
+    height: 35.7rem;
+}
+
+.screen-img .start {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    top: 13.8rem;
+    left: 12.8rem;
+    height: 8.5rem;
+    width: 30rem;
+    background: #202542;  
+    border-radius: 7px;
+    border: 3px solid white;
+}
+
+.start h2 {
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    font-family: 'Press Start 2P';
+    color: #fff;
+}
+.start a {
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    padding: 1rem;
+    color: #000;
+    background-color: #7f00ff;
+    background-image: linear-gradient(225deg, #7f00ff 0%, #0000ff 17%, #00ff00 39%, #ffff00 60%, #ff7f00 80%, #ff0000 100%);
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+.start a:hover {
+    transition: all ease 10s;
+    background-color: #7f00ff;
+    background-image: linear-gradient(45deg, #7f00ff 0%, #0000ff 17%, #00ff00 39%, #ffff00 60%, #ff7f00 80%, #ff0000 100%);
+    cursor: pointer;
+    
+}
+
+

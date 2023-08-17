@@ -25,7 +25,7 @@ The game's core functionality is implemented in JavaScript. Here's a brief overv
 - **`increaseScore()`**: Increments the player's score by 10 points and updates the displayed score on the UI.
 - **`getNewHit()`**: Generates a new target number that the player needs to hit and updates it on the UI.
 - **`makeBubble()`**: Generates a set of balloons with random numbers and displays them on the UI.
-- **`runTimer()`**: Initiates a countdown timer of 30 seconds. If the timer reaches 0, the game ends.
+- **`runTimer()`**: Initiates a countdown timer of 60 seconds. If the timer reaches 0, the game ends.
 - **Event Listener**: Listens for clicks on the balloons and checks if the clicked number matches the target number. If so, the player's score increases, and the game continues.
 
 ## Getting Started
@@ -45,8 +45,5 @@ Please feel free to contribute to the project by submitting any issues or pull r
 
 "Hit Balloons" game concept and code by Rajkishor Sah.
 Game assets provided by Pixabay and others.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 🎈🎮 Have a fantastic time popping balloons and challenging yourself in the "Hit Balloons" game! 🚀🎉 #HitBalloonsGame #GamingFun #ChallengeAccepted
